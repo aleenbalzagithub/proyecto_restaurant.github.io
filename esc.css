@@ -1,0 +1,79 @@
+body {
+	background-color: #ffc107;
+    background-image: url("imagen/r1.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 150px 90px;
+    margin-right: 10px;
+    background-attachment: fixed;
+}
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 15px;
+}
+article {   
+    outline-color:red;
+	outline-style: dashed;
+    margin: 10px;          
+    padding: 12px;
+}
+div.CN {
+    color: black;
+    font-family: arial;
+    font-size: 25px;
+    background-image: url(.fondos/coffee-beans.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p.lista_comida {
+    border: 2px green;
+    border-style: dotted;
+    padding: 10px;
+    color: olive;
+    font-family: arial;
+    font-size: 15px;
+    text-align: justify;
+}
+#comida_nacional h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+#comida_internacional h2 {
+	text-align: left;
+	text-decoration: underline;
+}
+#comida_rapida h2 {
+	text-align: left;
+	text-decoration: underline;
+}
+footer {
+	background-image: url("imagen/LL.jpg");
+	background-repeat: no-repeat;
+    background-position: left;
+	background-size: 100px 70px;
+	margin-left: 10px;
+}
+
+
+
+/* unvisited link 
+a:link {
+    color: red;
+}
+
+visited link
+a:visited {
+    color: green;
+}
+
+/* mouse over link 
+a:hover {
+    color: hotpink;
+}
+
+/* selected link 
+a:active {
+    color: blue;
+} */
